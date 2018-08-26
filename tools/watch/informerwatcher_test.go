@@ -30,9 +30,9 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/util/diff"
 	"k8s.io/apimachinery/pkg/watch"
-	fakeclientset "k8s.io/client-go/kubernetes/fake"
-	testcore "k8s.io/client-go/testing"
-	"k8s.io/client-go/tools/cache"
+	fakeclientset "k8s.io/client-go/v8/kubernetes/fake"
+	testcore "k8s.io/client-go/v8/testing"
+	"k8s.io/client-go/v8/tools/cache"
 )
 
 type byEventTypeAndName []watch.Event

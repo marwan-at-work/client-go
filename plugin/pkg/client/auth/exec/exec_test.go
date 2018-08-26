@@ -38,9 +38,9 @@ import (
 
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/client-go/pkg/apis/clientauthentication"
-	"k8s.io/client-go/tools/clientcmd/api"
-	"k8s.io/client-go/transport"
+	"k8s.io/client-go/v8/pkg/apis/clientauthentication"
+	"k8s.io/client-go/v8/tools/clientcmd/api"
+	"k8s.io/client-go/v8/transport"
 )
 
 var (

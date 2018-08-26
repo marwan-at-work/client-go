@@ -38,12 +38,12 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/runtime/serializer"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	"k8s.io/client-go/pkg/apis/clientauthentication"
-	"k8s.io/client-go/pkg/apis/clientauthentication/v1alpha1"
-	"k8s.io/client-go/pkg/apis/clientauthentication/v1beta1"
-	"k8s.io/client-go/tools/clientcmd/api"
-	"k8s.io/client-go/transport"
-	"k8s.io/client-go/util/connrotation"
+	"k8s.io/client-go/v8/pkg/apis/clientauthentication"
+	"k8s.io/client-go/v8/pkg/apis/clientauthentication/v1alpha1"
+	"k8s.io/client-go/v8/pkg/apis/clientauthentication/v1beta1"
+	"k8s.io/client-go/v8/tools/clientcmd/api"
+	"k8s.io/client-go/v8/transport"
+	"k8s.io/client-go/v8/util/connrotation"
 )
 
 const execInfoEnv = "KUBERNETES_EXEC_INFO"

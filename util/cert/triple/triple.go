@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"net"
 
-	certutil "k8s.io/client-go/util/cert"
+	certutil "k8s.io/client-go/v8/util/cert"
 )
 
 type KeyPair struct {

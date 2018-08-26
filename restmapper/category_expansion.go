@@ -18,7 +18,7 @@ package restmapper
 
 import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/client-go/discovery"
+	"k8s.io/client-go/v8/discovery"
 )
 
 // CategoryExpander maps category strings to GroupResouces.

@@ -21,8 +21,8 @@ package v1
 import (
 	v1 "k8s.io/api/networking/v1"
 	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
-	"k8s.io/client-go/kubernetes/scheme"
-	rest "k8s.io/client-go/rest"
+	"k8s.io/client-go/v8/kubernetes/scheme"
+	rest "k8s.io/client-go/v8/rest"
 )
 
 type NetworkingV1Interface interface {
